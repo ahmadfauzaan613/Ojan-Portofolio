@@ -1,0 +1,746 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: white;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+nav .navbar-collapse .nav-item .nav-link {
+  margin-right: 25px;
+  font-family: "Karla", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: #a5a5a5;
+}
+
+nav .navbar-collapse .nav-item .nav-link:hover {
+  color: black;
+  -webkit-text-decoration: underline #ffd369 3px;
+          text-decoration: underline #ffd369 3px;
+}
+
+.text {
+  margin-top: 150px;
+}
+
+.text h1 {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 66px;
+  color: #000000;
+}
+
+.text p {
+  font-family: "Karla", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: #c4c4c4;
+}
+
+.text .blinking-cursor {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  -webkit-animation: blink 1s steps(2, start) infinite;
+          animation: blink 1s steps(2, start) infinite;
+}
+
+@-webkit-keyframes blink {
+  to {
+    visibility: hidden;
+  }
+}
+
+@keyframes blink {
+  to {
+    visibility: hidden;
+  }
+}
+
+.text .btn-hubungi {
+  width: 159px;
+  height: 41px;
+}
+
+.text .btn-hubungi p {
+  font-family: "Karla", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  padding-top: 4px;
+  padding-left: 5px;
+  font-size: 12px;
+  color: #ffd369;
+}
+
+.text .btn-hubungi p:hover {
+  color: #000000;
+  background-color: #ffc337;
+}
+
+.about .row {
+  padding-top: 90px;
+}
+
+.about .row h1 {
+  margin-left: -10px;
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 46px;
+  color: #ffd369;
+  margin-bottom: 25px;
+}
+
+.about .row p {
+  font-family: "Karla", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #000000;
+}
+
+.about .row .icon-link {
+  margin-bottom: 30px;
+}
+
+.about .row .icon-link a {
+  margin-right: 10px;
+}
+
+.about .row .icon-link .resume p {
+  font-family: "Karla", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14;
+  color: #cfcfcf;
+  text-decoration: none;
+}
+
+.about .row .icon-link .resume p:hover {
+  color: #ffd369;
+  text-decoration: underline;
+}
+
+.about .tentang {
+  padding-top: 15%;
+}
+
+.skill h1 {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 66px;
+  color: #ffd369;
+  margin-top: 50px;
+}
+
+.skill p {
+  font-family: "Karla", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  margin-top: 30px;
+  color: #000000;
+}
+
+.skill .icon-program {
+  margin-top: 20px;
+  margin-left: -20px;
+}
+
+.skill .icon-program img {
+  margin-right: 30px;
+  width: 40px;
+  height: 40px;
+}
+
+.skill .gambar {
+  margin-top: 0;
+  padding-left: 30px;
+}
+
+.pengalaman {
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+.pengalaman .thing {
+  padding: 24px;
+  width: 400px;
+  -webkit-box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.11), 0 5px 15px 0 rgba(0, 0, 0, 0.08);
+          box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.11), 0 5px 15px 0 rgba(0, 0, 0, 0.08);
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  border-left: 0 solid #ffd369;
+  -webkit-transition: border-left 300ms ease-in-out, padding-left 300ms ease-in-out;
+  transition: border-left 300ms ease-in-out, padding-left 300ms ease-in-out;
+}
+
+.pengalaman .thing h2 {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  color: #ffd369;
+}
+
+.pengalaman .thing p {
+  font-family: "Karla", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #000000;
+}
+
+.pengalaman .thing img {
+  width: 200px;
+  height: 70px;
+  margin-left: -20px;
+  margin-bottom: 20px;
+}
+
+.pengalaman .thing:hover {
+  padding-left: 0.5rem;
+  border-left: 0.5rem solid #ffd369;
+}
+
+.pengalaman .thing > :first-child {
+  margin-top: 0;
+}
+
+.pengalaman .thing > :last-child {
+  margin-bottom: 0;
+}
+
+.pengalaman .heading {
+  color: #fff;
+}
+
+.project {
+  /* DEMO 1 ============================== */
+}
+
+.project .hover {
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 60%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.project .hover h3 {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: #ffd369;
+}
+
+.project .hover p {
+  font-family: "Karla", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #000000;
+}
+
+.project .hover-overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 90;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.project .hover img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.project .hover-content {
+  position: relative;
+  z-index: 99;
+}
+
+.project .hover-1 img {
+  width: 105%;
+  position: absolute;
+  top: 0;
+  left: -5%;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.project .hover-1-content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 99;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.project .hover-1 .hover-overlay {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.project .hover-1-description {
+  -webkit-transform: translateY(0.5rem);
+          transform: translateY(0.5rem);
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  opacity: 0;
+}
+
+.project .hover-1:hover .hover-1-content {
+  bottom: 2rem;
+}
+
+.project .hover-1:hover .hover-1-description {
+  opacity: 1;
+  -webkit-transform: none;
+          transform: none;
+}
+
+.project .hover-1:hover img {
+  left: 0;
+}
+
+.project .hover-1:hover .hover-overlay {
+  opacity: 0;
+}
+
+.sertifikat .flip {
+  position: relative;
+  margin-top: 50px;
+  margin-right: 8px;
+}
+
+.sertifikat .flip > .front,
+.sertifikat .flip > .back {
+  display: block;
+  -webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+          transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  -webkit-transition-duration: .5s;
+          transition-duration: .5s;
+  -webkit-transition-property: opacity, -webkit-transform;
+  transition-property: opacity, -webkit-transform;
+  transition-property: transform, opacity;
+  transition-property: transform, opacity, -webkit-transform;
+}
+
+.sertifikat .flip > .front {
+  -webkit-transform: rotateY(0deg);
+          transform: rotateY(0deg);
+}
+
+.sertifikat .flip > .back {
+  position: absolute;
+  opacity: 0;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: rotateY(-180deg);
+          transform: rotateY(-180deg);
+}
+
+.sertifikat .flip:hover > .front {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+.sertifikat .flip:hover > .back {
+  opacity: 1;
+  -webkit-transform: rotateY(0deg);
+          transform: rotateY(0deg);
+}
+
+.sertifikat .flip.flip-vertical > .back {
+  -webkit-transform: rotateX(-180deg);
+          transform: rotateX(-180deg);
+}
+
+.sertifikat .flip.flip-vertical:hover > .front {
+  -webkit-transform: rotateX(180deg);
+          transform: rotateX(180deg);
+}
+
+.sertifikat .flip.flip-vertical:hover > .back {
+  -webkit-transform: rotateX(0deg);
+          transform: rotateX(0deg);
+}
+
+.sertifikat .flip {
+  position: relative;
+  display: inline-block;
+  margin-right: 2px;
+  margin-bottom: 1em;
+  width: 400px;
+}
+
+.sertifikat .flip > .front,
+.sertifikat .flip > .back {
+  display: block;
+  color: white;
+  width: inherit;
+  background-size: cover !important;
+  background-position: center !important;
+  height: 220px;
+  padding: 1em 2em;
+  background: #313131;
+}
+
+.sertifikat .flip > .front p,
+.sertifikat .flip > .back p {
+  font-size: 0.9125rem;
+  line-height: 160%;
+  color: #999;
+}
+
+.sertifikat .text-shadow {
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.04), 2px 2px rgba(0, 0, 0, 0.04), 3px 3px rgba(0, 0, 0, 0.04), 4px 4px rgba(0, 0, 0, 0.04), 0.125rem 0.125rem rgba(0, 0, 0, 0.04), 6px 6px rgba(0, 0, 0, 0.04), 7px 7px rgba(0, 0, 0, 0.04), 8px 8px rgba(0, 0, 0, 0.04), 9px 9px rgba(0, 0, 0, 0.04), 0.3125rem 0.3125rem rgba(0, 0, 0, 0.04), 11px 11px rgba(0, 0, 0, 0.04), 12px 12px rgba(0, 0, 0, 0.04), 13px 13px rgba(0, 0, 0, 0.04), 14px 14px rgba(0, 0, 0, 0.04), 0.625rem 0.625rem rgba(0, 0, 0, 0.04), 16px 16px rgba(0, 0, 0, 0.04), 17px 17px rgba(0, 0, 0, 0.04), 18px 18px rgba(0, 0, 0, 0.04), 19px 19px rgba(0, 0, 0, 0.04), 1.25rem 1.25rem rgba(0, 0, 0, 0.04);
+}
+
+@media (max-width: 575.98px) {
+  .text {
+    margin-top: 10px;
+  }
+  .text h1 {
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    color: #000000;
+  }
+  .text p {
+    font-family: "Karla", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #c4c4c4;
+  }
+  .text .blinking-cursor {
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    -webkit-animation: blink 1s steps(2, start) infinite;
+            animation: blink 1s steps(2, start) infinite;
+  }
+  @-webkit-keyframes blink {
+    to {
+      visibility: hidden;
+    }
+  }
+  @keyframes blink {
+    to {
+      visibility: hidden;
+    }
+  }
+  .text .btn-hubungi {
+    width: 159px;
+    height: 41px;
+  }
+  .text .btn-hubungi p {
+    font-family: "Karla", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    padding-top: 4px;
+    padding-left: 5px;
+    font-size: 12px;
+    color: #ffd369;
+  }
+  .text .btn-hubungi p:hover {
+    color: #000000;
+    background-color: #ffc337;
+  }
+  .about .tentang {
+    margin-top: -30px;
+  }
+  .about .row h1 {
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    color: #ffd369;
+    margin-bottom: 25px;
+  }
+  .about .row p {
+    font-family: "Karla", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #000000;
+  }
+  .about .row .icon-link {
+    margin-bottom: 30px;
+  }
+  .about .row .icon-link a {
+    margin-right: 10px;
+  }
+  .about .row .icon-link .resume p {
+    font-family: "Karla", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14;
+    color: #cfcfcf;
+    text-decoration: none;
+  }
+  .about .row .icon-link .resume p:hover {
+    color: #ffd369;
+    text-decoration: underline;
+  }
+  .about .tentang {
+    padding-top: 15%;
+  }
+  .skill h1 {
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    color: #ffd369;
+  }
+  .skill p {
+    font-family: "Karla", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    margin-top: 30px;
+    color: #000000;
+  }
+  .skill .icon-program {
+    margin-top: 20px;
+    margin-left: -20px;
+  }
+  .skill .icon-program img {
+    margin-right: 30px;
+    width: 40px;
+    height: 40px;
+  }
+  .skill .gambar img {
+    width: 100%;
+  }
+  .pengalaman .thing {
+    width: 100%;
+    -webkit-box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.11), 0 5px 15px 0 rgba(0, 0, 0, 0.08);
+            box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.11), 0 5px 15px 0 rgba(0, 0, 0, 0.08);
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+    border-left: 0 solid #ffd369;
+    -webkit-transition: border-left 300ms ease-in-out, padding-left 300ms ease-in-out;
+    transition: border-left 300ms ease-in-out, padding-left 300ms ease-in-out;
+  }
+  .pengalaman .thing h2 {
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    color: #ffd369;
+  }
+  .pengalaman .thing p {
+    font-family: "Karla", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #000000;
+  }
+  .pengalaman .thing:hover {
+    padding-left: 0.5rem;
+    border-left: 0.5rem solid #ffd369;
+  }
+  .pengalaman .thing > :first-child {
+    margin-top: 0;
+  }
+  .pengalaman .thing > :last-child {
+    margin-bottom: 0;
+  }
+  .pengalaman .heading {
+    color: #fff;
+  }
+  .project {
+    /* DEMO 1 ============================== */
+  }
+  .project .hover {
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 60%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .project .hover h3 {
+    font-family: "Rubik", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: #ffd369;
+  }
+  .project .hover p {
+    font-family: "Karla", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #000000;
+  }
+  .project .hover-overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 90;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+  }
+  .project .hover img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  .project .hover-content {
+    position: relative;
+    z-index: 99;
+  }
+  .project .hover-1 img {
+    width: 105%;
+    position: absolute;
+    top: 0;
+    left: -5%;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  .project .hover-1-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 99;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+  }
+  .project .hover-1 .hover-overlay {
+    background: rgba(0, 0, 0, 0.5);
+  }
+  .project .hover-1-description {
+    -webkit-transform: translateY(0.5rem);
+            transform: translateY(0.5rem);
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+    opacity: 0;
+  }
+  .project .hover-1:hover .hover-1-content {
+    bottom: 2rem;
+  }
+  .project .hover-1:hover .hover-1-description {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none;
+  }
+  .project .hover-1:hover img {
+    left: 0;
+  }
+  .project .hover-1:hover .hover-overlay {
+    opacity: 0;
+  }
+  .sertifikat .flip {
+    position: relative;
+    margin-top: 30px;
+    margin-right: 8px;
+  }
+  .sertifikat .flip > .front,
+  .sertifikat .flip > .back {
+    display: block;
+    -webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    -webkit-transition-duration: .5s;
+            transition-duration: .5s;
+    -webkit-transition-property: opacity, -webkit-transform;
+    transition-property: opacity, -webkit-transform;
+    transition-property: transform, opacity;
+    transition-property: transform, opacity, -webkit-transform;
+  }
+  .sertifikat .flip > .front {
+    -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+  }
+  .sertifikat .flip > .back {
+    position: absolute;
+    opacity: 0;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    -webkit-transform: rotateY(-180deg);
+            transform: rotateY(-180deg);
+  }
+  .sertifikat .flip:hover > .front {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+  }
+  .sertifikat .flip:hover > .back {
+    opacity: 1;
+    -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+  }
+  .sertifikat .flip.flip-vertical > .back {
+    -webkit-transform: rotateX(-180deg);
+            transform: rotateX(-180deg);
+  }
+  .sertifikat .flip.flip-vertical:hover > .front {
+    -webkit-transform: rotateX(180deg);
+            transform: rotateX(180deg);
+  }
+  .sertifikat .flip.flip-vertical:hover > .back {
+    -webkit-transform: rotateX(0deg);
+            transform: rotateX(0deg);
+  }
+  .sertifikat .flip {
+    position: relative;
+    display: inline-block;
+    margin-right: 2px;
+    margin-bottom: 1em;
+    width: 99%;
+  }
+  .sertifikat .flip > .front,
+  .sertifikat .flip > .back {
+    display: block;
+    color: white;
+    width: inherit;
+    background-size: cover !important;
+    background-position: center !important;
+    height: 220px;
+    padding: 1em 2em;
+    background: #313131;
+  }
+  .sertifikat .flip > .front p,
+  .sertifikat .flip > .back p {
+    font-size: 0.9125rem;
+    line-height: 160%;
+    color: #999;
+  }
+  .sertifikat .text-shadow {
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.04), 2px 2px rgba(0, 0, 0, 0.04), 3px 3px rgba(0, 0, 0, 0.04), 4px 4px rgba(0, 0, 0, 0.04), 0.125rem 0.125rem rgba(0, 0, 0, 0.04), 6px 6px rgba(0, 0, 0, 0.04), 7px 7px rgba(0, 0, 0, 0.04), 8px 8px rgba(0, 0, 0, 0.04), 9px 9px rgba(0, 0, 0, 0.04), 0.3125rem 0.3125rem rgba(0, 0, 0, 0.04), 11px 11px rgba(0, 0, 0, 0.04), 12px 12px rgba(0, 0, 0, 0.04), 13px 13px rgba(0, 0, 0, 0.04), 14px 14px rgba(0, 0, 0, 0.04), 0.625rem 0.625rem rgba(0, 0, 0, 0.04), 16px 16px rgba(0, 0, 0, 0.04), 17px 17px rgba(0, 0, 0, 0.04), 18px 18px rgba(0, 0, 0, 0.04), 19px 19px rgba(0, 0, 0, 0.04), 1.25rem 1.25rem rgba(0, 0, 0, 0.04);
+  }
+}
+/*# sourceMappingURL=style.css.map */
