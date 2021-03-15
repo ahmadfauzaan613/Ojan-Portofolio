@@ -1,0 +1,22 @@
+
+Tentang Saya
+
+	Perkenalkan nama saya Ahmad Fauzan mahasiswa tingkat akhir
+jurusan Sistem Informasi di universitas Gunadarma
+Saya berlokasi di Depok, Jawa Barat.
+	Di dalam Web Portofolio ini, terdapat account Linkedin, github, 
+dan apabila anda tertarik untuk bekerjasama dengan saya, anda dapat menghubungi saya melalui via email ataupun via Whatsapp
+		 
+	
+
+Skills,
+Experience &
+Project
+
+	Saya sudah mengerjakan beberapa project freelance
+sebagai Front End Developer, saya sudah menjadi front end developer
+selama 1 tahun, saya handal dengan menggunakan berbagai macam Web Framework
+seperti, Bootsrap, Sass, Tailwind, VueJs dan ReactJS.
+	 Saya juga mempunyai pengalaman di bidang Back End Developer,
+menggunakan bahasa pemrograman PHP dengan framework CodeIgniter, lalu juga menggunakan Golang untuk membagun
+Back End sebuah Web dan membuat Web Admin

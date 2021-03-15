@@ -92,7 +92,7 @@ nav .navbar-collapse .nav-item .nav-link:hover {
 }
 
 .about .row h1 {
-  margin-left: -10px;
+  margin-left: 1px;
   font-family: "Rubik", sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -105,7 +105,7 @@ nav .navbar-collapse .nav-item .nav-link:hover {
   font-family: "Karla", sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 21px;
   color: #000000;
 }
 
@@ -121,7 +121,7 @@ nav .navbar-collapse .nav-item .nav-link:hover {
   font-family: "Karla", sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 14;
+  font-size: 18px;
   color: #cfcfcf;
   text-decoration: none;
 }
@@ -148,7 +148,7 @@ nav .navbar-collapse .nav-item .nav-link:hover {
   font-family: "Karla", sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 21px;
   margin-top: 30px;
   color: #000000;
 }
