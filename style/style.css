@@ -105,7 +105,7 @@ nav .navbar-collapse .nav-item .nav-link:hover {
   font-family: "Karla", sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 21px;
+  font-size: 18px;
   color: #000000;
 }
 
@@ -121,7 +121,7 @@ nav .navbar-collapse .nav-item .nav-link:hover {
   font-family: "Karla", sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 14px;
   color: #cfcfcf;
   text-decoration: none;
 }
@@ -148,13 +148,13 @@ nav .navbar-collapse .nav-item .nav-link:hover {
   font-family: "Karla", sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 21px;
+  font-size: 18px;
   margin-top: 30px;
   color: #000000;
 }
 
 .skill .icon-program {
-  margin-top: 20px;
+  margin-top: 10px;
   margin-left: -20px;
 }
 

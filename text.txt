@@ -1,11 +1,9 @@
 
 Tentang Saya
 
-	Perkenalkan nama saya Ahmad Fauzan mahasiswa tingkat akhir
-jurusan Sistem Informasi di universitas Gunadarma
-Saya berlokasi di Depok, Jawa Barat.
-	Di dalam Web Portofolio ini, terdapat account Linkedin, github, 
-dan apabila anda tertarik untuk bekerjasama dengan saya, anda dapat menghubungi saya melalui via email ataupun via Whatsapp
+Perkenalkan nama saya Ahmad Fauzan, mahasiswa tingkat akhir di Universitas Gunadarma (Sistem Informasi) yang berdomisili di Depok, Jawa Barat. Saya adalah seorang Front End Developer, Wordpress Developer dan juga seorang Freelancer. Silahkan hubungi saya via Email atau WhatsApp yang tertera jika anda tertarik untuk bekerja sama dengan saya.  
+Terimakasih.
+
 		 
 	
 
@@ -13,10 +11,28 @@ Skills,
 Experience &
 Project
 
-	Saya sudah mengerjakan beberapa project freelance
-sebagai Front End Developer, saya sudah menjadi front end developer
-selama 1 tahun, saya handal dengan menggunakan berbagai macam Web Framework
-seperti, Bootsrap, Sass, Tailwind, VueJs dan ReactJS.
-	 Saya juga mempunyai pengalaman di bidang Back End Developer,
-menggunakan bahasa pemrograman PHP dengan framework CodeIgniter, lalu juga menggunakan Golang untuk membagun
-Back End sebuah Web dan membuat Web Admin
+Saya sudah berpengalaman mengerjakan beberapa project freelance sebagai Front End Developer selama 1 tahun dan saya juga handal dengan menggunakan berbagai macam Web Framework
+seperti Bootsrap, Sass, Tailwind, VueJs, ReactJS, dan Wordpress.
+Saya juga mempunyai pengalaman di bidang Back End Developer yang menggunakan bahasa pemrograman PHP dengan framework CodeIgniter dan juga menggunakan bahasa pemrograman Golang untuk membagun sebuah Web dan membuat Web Admin.
+
+CV
+
+A final year stundent at Universitas Gunadarma majoring in System Information who has experience as Front End Developer and Wordpress Developer. Able to use many frameworks such as Bootstrap, Tailwind, Sass, ReactJS, and VueJs. Also have experience to do implementation a design into web and connecting an API in application or system that are required in the world of web developer.
+
+-
+Akrab dengan Slack dan Trello yang berguna
+untuk kolaborasi tim
+-
+Familiar with Web Architecture starting from
+code structure, separating and storing certain
+files, etc
+
+Has a good track record of team work & time
+management
+
+- Always update with new technology and
+trends
+
+Has strong intention and commitment to work
+as professional programmer
+
